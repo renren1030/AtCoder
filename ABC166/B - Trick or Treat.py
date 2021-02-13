@@ -6,4 +6,4 @@ for i in range(k):
     ai = list(map(int, input().split()))
     a = a + ai
 
-print(a)
+print(n-len(set(a)))
